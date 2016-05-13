@@ -1,0 +1,39 @@
+<header class="container center-text">
+  <h1>Tic Tac Toe</h1>
+</header>
+
+<main role="main" class="container">
+  <section class="center-text">
+    <button id="start-button">Start Game</button>
+  </section>
+
+  <div id="winner-container">
+    <h2></h2>
+  </div>
+
+  <div id="players-container" class="hidden">
+    <p id="turn"><span id="current-player"></span>'s turn</p>
+    <p>X = <span id="playerX-name"></span></p>
+    <p>O = <span id="playerO-name"></span></p>
+  </div>
+
+  <section>
+    <ul class="cells">
+      <div id="0" class="row">
+        <li id="0" class="cell round-top-left"></li>
+        <li id="1" class="cell "></li>
+        <li id="2" class="cell round-top-right"></li>
+      </div>
+      <div id="1" class="row">
+        <li id="3" class="cell "></li>
+        <li id="4" class="cell "></li>
+        <li id="5" class="cell "></li>
+      </div>
+      <div id="2" class="row">
+        <li id="6" class="cell round-bottom-left"></li>
+        <li id="7" class="cell "></li>
+        <li id="8" class="cell round-bottom-right"></li>
+      </div>
+    </ul>
+  </section>
+</main>
